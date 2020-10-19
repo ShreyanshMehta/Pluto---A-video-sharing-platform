@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Player</title>
+    <link rel="stylesheet" type=text/css href='Style/navigation.css'>
+    <link rel="stylesheet" type=text/css href='Style/player.css'>
+</head>
+
+<body>
+    <!--Navigation Bar Starts-->
+    <header>
+        <nav class="navbar">
+            <ul class='menu'>
+                <li class='logo'>
+                    <div id='white'>Plu</div>
+                    <div id='orange'>to</div>
+                </li>
+                <li>
+                    <a href="home.html">Home</a>
+                </li>
+                <li>
+                    <a href="#" class='active'>Player</a>
+                </li>
+                <li>
+                    <a href="#">Trending</a>
+                </li>
+                <li>
+                    <a href="#">Subscriptions</a>
+                </li>
+                <li>
+                    <a href="#">Category</a>
+                </li>
+                <li>
+                    <a href="#">Login</a>
+                </li>
+                <div class='search'>
+                    <input type="text" name="search" placeholder="Search Pluto">
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <!--Navigation Bar Ends-->
+
+    <div class='container'>
+        <div class='player'>
+            <div class='screen'>
+                <video width='949' ; height="534" controls poster="/img/cover.jpg">
+                    <source src="/Media/04 - Soldier.mkv" type="video/mp4">
+                </video>
+                <div class='name'>
+                    Episode-1 | Beast Titans | Season 2 | Attack on Titans
+                </div>
+                <div class='spec'>
+                    <div class='views'>5 views</div>
+                    <div class='date'>18 Oct 2020</div>
+                </div>
+            </div>
+            <div class="description">
+
+            </div>
+        </div>
+        <div class='suggestion'>
+            <div class="suggest_head" id="item-1">
+                Playlist-Mix
+                <br> @ Pluto
+            </div>
+            <a href='/player.html'>
+                <div class="items" id="item1"></div>
+            </a>
+            <a href='/player.html'>
+                <div class="items" id="item1"></div>
+            </a>
+            <a href='/player.html'>
+                <div class="items" id="item1"></div>
+            </a>
+            <a href='/player.html'>
+                <div class="items" id="item1"></div>
+            </a>
+            <a href='/player.html'>
+                <div class="items" id="item1"></div>
+            </a>
+        </div>
+    </div>
+
+</body>
+
+</html>
